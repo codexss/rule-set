@@ -47,5 +47,18 @@ URL-REGEX,"^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingP
 // 携程
 URL-REGEX,"^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+(_\d{4}){2}"
 
-//FORK FROM Github@Choler
-//hostname = mp.weixin.qq.com, api.zhihu.com, app.bilibili.com, cube.elemecdn.com, m.client.10010.com, s3plus.meituan.net, img.meituan.com, res.xiaojukeji.com, api.m.jd.com, ms.jr.jd.com, dimg04.c-trip.com
+//Fork form Github@Choler
+
+// Youtube Fork form github@hello1983
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_
+URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking
+
+//hostname = mp.weixin.qq.com, api.zhihu.com, app.bilibili.com, cube.elemecdn.com, m.client.10010.com, s3plus.meituan.net, img.meituan.com, res.xiaojukeji.com, api.m.jd.com, ms.jr.jd.com, dimg04.c-trip.com, *.youtube.com, *.googlevideo.com, youtubei.googleapis.com, premiumyva.appspot.com
