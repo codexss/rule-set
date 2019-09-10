@@ -1,0 +1,28 @@
+// 百度贴吧
+USER-AGENT,*BaiduXAdmanager*
+URL-REGEX,"^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$"
+
+// Pixiv
+DOMAIN-SUFFIX,socdm.com
+
+// Doubleclick
+DOMAIN-SUFFIX,doubleclick.net
+
+// 微信公众号
+URL-REGEX,"^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad"
+
+// 网易云音乐
+URL-REGEX,"^http:\/\/[\s\S]*\/eapi\/ad\/"
+URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
+URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
+
+// 知乎
+URL-REGEX,"^https?:\/\/api\.zhihu\.com\/commercial_api\/.*launch"
+
+// 哔哩哔哩
+URL-REGEX,"^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/"
+
+// 中国联通
+URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
+
+//FORK FROM Github@Choler
