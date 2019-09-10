@@ -22,7 +22,30 @@ URL-REGEX,"^https?:\/\/api\.zhihu\.com\/commercial_api\/.*launch"
 // 哔哩哔哩
 URL-REGEX,"^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/"
 
+// 饿了么 
+URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*h_\d{4}\/"
+URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*\.mp4\?$"
+
 // 中国联通
 URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
 
+// 美团
+URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002"
+URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
+URL-REGEX,"^https?:\/\/img\.meituan\.net\/display\/\w+\.jpg\.webp$"
+
+// 滴滴出行
+OR,((DOMAIN,ct.xiaojukeji.com), (DOMAIN,gwp.xiaojukeji.com))
+URL-REGEX,"^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload)"
+
+// 京东
+URL-REGEX,"^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
+
+// 京东金融
+URL-REGEX,"^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture$"
+
+// 携程
+URL-REGEX,"^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+(_\d{4}){2}"
+
 //FORK FROM Github@Choler
+//hostname = mp.weixin.qq.com, api.zhihu.com, app.bilibili.com, cube.elemecdn.com, m.client.10010.com, s3plus.meituan.net, img.meituan.com, res.xiaojukeji.com, api.m.jd.com, ms.jr.jd.com, dimg04.c-trip.com
