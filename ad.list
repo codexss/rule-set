@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,doubleclick.net
 URL-REGEX,"^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad"
 
 // 网易云音乐
-URL-REGEX,"^http:\/\/[\s\S]*\/eapi\/ad\/"
+URL-REGEX,"^http:\/\/.+\/eapi\/ad\/"
 URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
 URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
 
@@ -23,15 +23,15 @@ URL-REGEX,"^https?:\/\/api\.zhihu\.com\/commercial_api\/.*launch"
 URL-REGEX,"^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/"
 
 // 饿了么 
-URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*h_\d{4}\/"
-URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*\.mp4\?$"
+URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.+h_\d{4}\/"
+URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.+\.mp4\?$"
 
 // 中国联通
 URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
 
 // 美团
 URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002"
-URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
+URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.+@\d{4}h"
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/display\/\w+\.jpg\.webp$"
 
 // 滴滴出行
@@ -50,15 +50,10 @@ URL-REGEX,"^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+(_\d{4}){2}"
 //Fork form Github@Choler
 
 // Youtube Fork form github@hello1983
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
-URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
-URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+(ctier|&oad）
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+(log_|ad_)
 URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/(pagead\/|ptracking|get_midroll_)
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/(.+adformat|ads)
 
 //hostname = mp.weixin.qq.com, api.zhihu.com, app.bilibili.com, cube.elemecdn.com, m.client.10010.com, s3plus.meituan.net, img.meituan.com, res.xiaojukeji.com, api.m.jd.com, ms.jr.jd.com, dimg04.c-trip.com, *.youtube.com, *.googlevideo.com, youtubei.googleapis.com, premiumyva.appspot.com
