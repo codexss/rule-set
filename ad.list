@@ -13,9 +13,9 @@ URL-REGEX,"^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad"
 
 // 网易云音乐
 URL-REGEX,"^http:\/\/.+\/eapi\/(ad|abtest|sp|hot|mlivestream|store|mlog|search\/(specialkeyword|defaultkeyword|hot))"
-//URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
-//URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
-AND,((USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*), (NOT,((DOMAIN-SUFFIX,music.126.net)))),REJECT
+URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
+URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
+AND,((USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*), (NOT,((DOMAIN-SUFFIX,music.126.net))))
 
 // 知乎
 URL-REGEX,"^https?:\/\/api\.zhihu\.com\/commercial_api\/.*launch"
